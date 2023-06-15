@@ -1,0 +1,100 @@
+/* styles.css */
+
+body {
+    background-color: #e0eaf1; /* Легкий синий цвет фона */
+}
+
+/* Остальные стили... */
+
+/* Общие стили */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+}
+
+h1, h2, h3 {
+    color: #333;
+}
+/* Пример стилей для ссылок */
+a {
+    color: #3366cc; /* Цвет ссылок */
+    text-decoration: none; /* Убрать подчеркивание */
+    transition: color 0.3s ease; /* Плавный переход цвета */
+}
+
+a:hover {
+    color: #ff6600; /* Цвет ссылок при наведении */
+}
+
+a:active {
+    color: #cc0000; /* Цвет ссылок при активации (нажатии) */
+}
+
+a:focus {
+    outline: none; /* Убрать контур при фокусе */
+}
+
+
+section {
+    margin-bottom: 20px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+/* Стили для меню */
+.menu ul {
+    display: flex;
+    justify-content: center;
+}
+
+.menu li {
+    margin-right: 10px;
+}
+
+.menu a {
+    padding: 5px 10px;
+    border-radius: 5px;
+    background-color: #666;
+    color: #fff;
+}
+
+.menu a:hover {
+    background-color: #333;
+}
+
+/* Стили для галереи */
+.image-gallery {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+}
+
+.image-gallery img {
+    width: 100%;
+    height: 120px;
+    border-radius: 5px;
+    object-fit: contain;
+    cursor: pointer;
+}
+
+/* Дополнительные стили для страницы Путешествия */
+section ul li {
+    margin-bottom: 5px;
+}
+
